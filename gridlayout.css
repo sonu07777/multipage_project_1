@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    /* box-sizing: border-box; */
+}
+main{
+    margin: 0 20px;
+    color: aliceblue;
+    width: auto;
+    border: 2px solid white;
+    display: grid;
+    grid-template-rows: repeat(6,600px);
+    /* grid-template-columns: repeat(4,1fr); */
+    grid-gap: 20px;
+    grid-auto-rows: 500px;
+}
+
+
+
+
+
+
+
+/* ...................header/section1..................... */
+.div1{
+    border: 1px solid wheat;
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,150px); */
+
+}
+.section1{
+    border: 3px solid rgb(243, 9, 9) ;
+    margin: 10px;
+    display: grid;
+    grid-template-rows: repeat(5,106px);
+    grid-template-columns: repeat(auto-fit,minmax(4,1fr));
+    grid-gap: 10px;
+    grid-auto-rows: 50px;
+    /* align-items: center; */
+    /* justify-items: center; */
+}
+.h1{
+    border: .5px solid rgb(221, 221, 221);
+
+}
+.h2{
+    border: .5px solid rgb(221, 221, 221);
+    grid-row: 1/5;
+    grid-column: 2/3;
+}
+.h3{
+    border: .5px solid rgb(221, 221, 221);
+    grid-column: 3/5;
+
+}
+.h4{
+    border: .5px solid rgb(221, 221, 221);
+    grid-column: 3/5;
+    grid-row: 2/5;
+}
+.h5{
+    border: 1px solid white;
+    /* margin: 60px 0 0 0; */
+    grid-row: 5/-1fr;
+    grid-column: 1/5;
+}
+
+
+
+
+
+
+
+
+
+/* .................  section 2 ..................*/
+.div2{
+    border: 1px solid wheat;
+}
+.section2{
+    margin: 10px;
+    width: auto;
+    display: grid;
+    grid-template-rows: repeat(3,150px);
+    grid-template-columns: repeat(3,1fr);
+    border: 3px solid red;
+}
+.h6{
+    border: 1px solid wheat;
+    grid-column: 1/-1;
+}
+.h7{
+    border: 1px solid wheat;
+    grid-row: 2/-1;
+    grid-column: 2/3;
+}
+
+
+
+
+
+
+
+
+/* .................. .section3 ...................... */
+.div3{
+    border: 1px solid wheat;
+}
+.section3{
+    margin: 10px;
+    border: 2px solid red;
+    display: grid;
+    grid-template-rows: repeat(4,135px);
+    grid-template-columns: repeat(6,1fr);
+    border: 3px solid red;
+}
+.h8{
+    border: 1px solid wheat;
+    grid-column: 1/-1;
+}
+.h9{
+    border: 1px solid wheat;
+    grid-column: 3/4;
+    grid-row: 2/-1;
+}
+.h10{
+    border: 1px solid wheat;
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+
+
+
+
+
+
+
+
+/* .....................  section 4 ................... */
+.div4{
+    border: 1px solid wheat;
+}
+
+
+
+
+
+
+
+
+/*...................... section 5 .................... */
+.div5{
+    border: 1px solid wheat;
+}
+.section5{
+    margin: 10px;
+    width: auto;
+    display: grid;
+    grid-template-rows: repeat(3,150px);
+    grid-template-columns: repeat(3,1fr);
+    border: 3px solid red;
+}
+.h11{
+    border: 1px solid wheat;
+    grid-column: 1/-1;
+}
+.h12{
+    border: 1px solid wheat;
+    grid-row: 2/-1;
+    grid-column: 2/3;
+}
+
+
+
+
+
+
+
+/* ......................... section 6 .................. */
+.div6{
+    border: 1px solid wheat;
+}
